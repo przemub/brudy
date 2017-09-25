@@ -43,6 +43,7 @@
     <table id="example" class="display" cellspacing="0" width="100%">
         <thead>
         <tr>
+            <th>Dodano</th>
             <th>Obsmarowany</th>
             <th>Tytuł</th>
             <th>Donos</th>
@@ -51,6 +52,7 @@
         <tbody>
         {% for brud in brudy %}
             <tr>
+            <td>{{ brud.dodano }}</td>
             <td>{{ brud.obsmarowany }}</td>
             <td>{{ brud.tytul }}</td>
             <td>{{ brud.tresc }}</td>

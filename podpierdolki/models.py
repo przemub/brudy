@@ -11,6 +11,7 @@ class Brudas(models.Model):
 class Donos(models.Model):
     tytul = models.CharField(max_length=256)
     tresc = models.TextField()
+    dodano = models.DateTimeField(True, True)
 
     obsmarowany = models.ForeignKey(Brudas)
 
