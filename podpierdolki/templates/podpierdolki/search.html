@@ -52,7 +52,7 @@
         <tbody>
         {% for brud in brudy %}
             <tr>
-            <td>{{ brud.dodano }}</td>
+            <td>{{ brud.dodano | date:"Y-m-d H:i" }}</td>
             <td>{{ brud.obsmarowany }}</td>
             <td>{{ brud.tytul }}</td>
             <td>{{ brud.tresc }}</td>
