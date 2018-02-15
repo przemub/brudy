@@ -25,7 +25,7 @@ SECRET_KEY = 'tx+#^f%_m457l4n3&fur$)$7sq+9pby83@s#o)tneg9vt9=bx5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['brudy.lo3gdynia.pl', 'brudy.1mi.pl']
 
 
 # Application definition
