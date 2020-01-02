@@ -13,7 +13,7 @@ class Donos(models.Model):
     tresc = models.TextField()
     dodano = models.DateTimeField(auto_now_add=True)
 
-    obsmarowany = models.ForeignKey(Brudas)
+    obsmarowany = models.ForeignKey(Brudas, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.tytul
