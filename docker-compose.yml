@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+        brudy:
+                build: .
+                volumes:
+                        - ./db.sqlite3:/usr/src/app/db.sqlite3
+                ports:
+                        - "3987:3987"
+                restart: unless-stopped
